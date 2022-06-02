@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="demoyr" max_length="40" name="x_58872_needit_demoyr" sizeclass="0" type="collection">
+        <element choice="3" label="Business justification" max_length="40" name="business_justification" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Legal" sequence="10" value="legal"/>
+                <element inactive_on_update="false" label="Regional" sequence="20" value="regional"/>
+            </choice>
+        </element>
+    </element>
+</database>
